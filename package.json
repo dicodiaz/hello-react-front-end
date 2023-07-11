@@ -8,6 +8,7 @@
     "build": "vite build",
     "eslint": "eslint \"**/*.{js,jsx}\"",
     "stylelint": "stylelint \"**/*.{css,scss}\"",
+    "lint": "pnpm eslint && pnpm stylelint",
     "preview": "vite preview"
   },
   "dependencies": {
